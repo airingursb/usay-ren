@@ -35,6 +35,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             });
         });
     </script>
+	<script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//widget.daovoice.io/widget/84796460.js","daovoice");</script>
     <!--start-smoth-scrolling-->
 </head>
 <body>
@@ -294,13 +295,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             pic: 'http://7xkcl8.com1.z0.glb.clouddn.com/usay-bg.jpg'
         },
         danmaku: {
-            id: '3614111922016062401',
-            api: 'https://dplayer.daoapp.io/',
+            id: '2016062401',
+            api: 'http://airingursb-dplayer.daoapp.io',
             token: 'tokendemo',
             maximum: 3000
         }
     });
     dp.init();
+	
+	daovoice('init', {
+  		app_id: "84796460"
+	});
+
+	daovoice('update');
 
     // stats.js: JavaScript Performance Monitor
     var stats = new Stats();

@@ -634,7 +634,7 @@ ul.callbacks_tabs.callbacks2_tabs {
     text-decoration: none;
     position: fixed;
     bottom: 10px;
-    right: 10px;
+    left: 10px;
     overflow: hidden;
     width: 50px;
     height: 50px;
